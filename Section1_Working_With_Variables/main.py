@@ -28,3 +28,17 @@ print('The Second Variable is:  '+secondVariable)
 user_name = input('What is your name?')
 length1 = len(user_name)
 print(length1)
+
+
+#Band Name Generator
+
+print('Hello people from around the multiverse')
+
+city_name = input('What is the name of the city where you grew up?\n')
+
+pet_name = input('What is the name of your last pet?\n')
+
+bandName = city_name + " "+pet_name
+
+print('Your bands name should be: \n'+bandName)
+
