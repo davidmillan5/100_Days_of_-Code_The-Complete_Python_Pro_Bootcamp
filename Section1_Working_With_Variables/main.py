@@ -1,16 +1,30 @@
-# This is a sample Python script.
+name = input('What is your name?')
+print(name)
 
-# Press Mayús+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+print(len(input('What is your last name?')))
+
+lastname = input('What is your last name?')
+length = len(name)
+print(length)
+
+# Interactive Exercise
+
+firstVariable = input('Enter your first Value: ')
+secondVariable = input('Enter your second Value: ')
+
+print('The First Variable is:  '+firstVariable)
+print('The Second Variable is:  '+secondVariable)
+
+thirdVariable = firstVariable
+firstVariable = secondVariable
+secondVariable = thirdVariable
+
+print('The First Variable is:  '+firstVariable)
+print('The Second Variable is:  '+secondVariable)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# Variable Naming
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+user_name = input('What is your name?')
+length1 = len(user_name)
+print(length1)
